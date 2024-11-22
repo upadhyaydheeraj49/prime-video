@@ -1,0 +1,29 @@
+.movie-page-main-container {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #000;
+}
+.prime-video-img {
+  width: 100%;
+}
+.movies-section {
+  width: 100vw;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .movies-section {
+    padding: 50px;
+  }
+}
+.movies-container {
+  width: 100%;
+}
+.movie-category-heading {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.slider-container {
+  width: 100% !important;
+}

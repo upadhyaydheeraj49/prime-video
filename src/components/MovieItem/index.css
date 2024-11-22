@@ -1,0 +1,31 @@
+.movie-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.movie-thumbnail {
+  width: 90%;
+}
+.popup-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popup-close-btn {
+  background: transparent;
+  padding: 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+.popup-close-icon {
+  font-size: 25px;
+  color: #231f20;
+}
